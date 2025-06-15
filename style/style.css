@@ -59,6 +59,8 @@ li.btn button {
     opacity: .8;
 }
 
+/* hero */
+
 .hero-screen {
     height: auto;
 }
@@ -105,6 +107,8 @@ li.btn button {
     font-size: 20px;
     font-weight: 600;
 }
+
+/* page2 */
 
 section.page-2 {
     width: 100%;
@@ -240,6 +244,8 @@ div.card-3 .b3 {
     display: flex;
     padding: 12px 20px;
 }
+
+/* page3 */
 
 .page-3-container {
     display: flex;
@@ -633,3 +639,122 @@ footer div.footer div.img img.a {
 footer div.footer div.img img.b {
     margin-right: 24px;
 }
+
+
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+
+
+
+
+@media screen and (max-width: 576px) {
+    /* header-style */
+
+    
+        nav {
+            display: flex;
+            margin: 0 20px;
+        }
+    
+    
+    
+            li.awlad {
+            margin-top: 10px;
+            font-weight: 800;
+        }
+    
+          li.btn button {
+            margin-top: 10px;
+            margin-bottom: 5px;
+          }
+
+/* hero */
+.hero-contents img {
+    height: 240px;
+    width: 240.28px;
+}
+.hero-contents .title {
+    margin-top: 0px;
+    font-size:24px;
+    line-height: normal;
+}
+
+
+/* page2 */
+
+.page-2-container {
+    margin-top: 60px;
+}
+
+div.title-subtitle {
+    width: 100%;
+}
+.page-2-container .subtitle {
+    padding: 0 15px;
+}
+
+ .page-2-container h3 {
+    width: 100%;
+    text-align: center;
+}
+
+div.common {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+} 
+
+div.card-1 {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    flex-direction: column;
+}
+
+div.common p.sub {
+    text-align: center;
+    width: 100%;
+}
+
+div.card-1 .b1 {
+    margin-bottom: 40px;
+}
+
+div.card-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+div.card-3 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+
+/* page3 */
+
+.page-3-container .header {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+iframe {
+    border-radius: 16px;
+    width: auto;
+    height: 200px;
+}
+
+
+    }
