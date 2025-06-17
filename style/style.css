@@ -48,6 +48,10 @@ li.awlad {
     font-weight: 800;
 }
 
+li.awlad:hover{
+    font-size: large;
+}
+
 li.btn button {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -57,6 +61,11 @@ li.btn button {
     border-radius: 8px;
     opacity: .8;
 }
+
+button:hover{
+    background-color: limegreen;
+}
+
 
 /* hero */
 
@@ -105,8 +114,13 @@ li.btn button {
     border-radius: 8px;
     font-size: 20px;
     font-weight: 600;
+    border: 0px;
 }
-
+.hero-contents button:hover{
+    background-color: limegreen;
+    color: black;
+    border: 1px solid black;
+}
 /* page2 */
 
 section.page-2 {
@@ -646,6 +660,27 @@ footer div.footer div.img img.b {
 
 
 
+footer div.footer div.img img.a:hover{
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+        
+    
+}
+footer div.footer div.img img.b:hover{
+    width: 30px;
+        height: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+footer div.footer div.img img.c:hover{
+    width: 30px;
+        height: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+
 
 
 
@@ -787,7 +822,7 @@ iframe {
 }
 
 .page-4-container .header .subtitle {
-    width: 1000%;
+    width: 100%;
     
 }
 
@@ -946,6 +981,7 @@ footer div.footer {
     padding-left: 0;
     align-items: center;
 }
+
 
 
     }
